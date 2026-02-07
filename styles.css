@@ -6,9 +6,8 @@ body {
   background-color: #ffffff;
 }
 
-/* HERO SECTION */
+/* Hero section */
 .hero {
-  /* Background image + yellow overlay */
   background:
     linear-gradient(
       90deg,
@@ -25,9 +24,9 @@ body {
   padding: 32px 24px;
 }
 
-/* Logo area (top-left) */
+/* Top bar / logo */
 .topbar {
-  padding-bottom: 18px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -52,7 +51,7 @@ body {
   color: rgba(0, 0, 0, 0.75);
 }
 
-/* Button */
+/* CTA button */
 .donate-button {
   display: inline-block;
   margin-top: 24px;
@@ -65,13 +64,14 @@ body {
   border-radius: 8px;
 }
 
-/* Simple hover (optional but valid) */
+/* Button hover */
 .donate-button:hover {
   background-color: #0E4A73;
 }
 
 /* Responsive (mobile-first)
-   We start with mobile styles, then increase spacing/text size on larger screens. */
+   Base styles = mobile
+   Media query enhances layout on larger screens */
 @media (min-width: 700px) {
   .hero {
     padding: 56px 64px;
