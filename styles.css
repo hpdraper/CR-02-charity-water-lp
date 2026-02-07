@@ -1,4 +1,4 @@
-/* Basic page setup */
+/* Basic reset */
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,16 +15,15 @@ body {
       rgba(247, 201, 72, 0.55) 42%,
       rgba(247, 201, 72, 0) 76%
     ),
-    url("images/boy.jpeg");
+    url("img/boy.jpeg");
 
   background-size: cover;
   background-position: center;
-
   min-height: 420px;
   padding: 32px 24px;
 }
 
-/* Top bar / logo */
+/* Logo area */
 .topbar {
   padding-bottom: 20px;
 }
@@ -42,7 +41,7 @@ body {
   line-height: 1.15;
 }
 
-/* Secondary story text */
+/* Secondary text */
 .hero-story {
   margin: 0;
   max-width: 52ch;
@@ -64,14 +63,12 @@ body {
   border-radius: 8px;
 }
 
-/* Button hover */
+/* Hover state */
 .donate-button:hover {
   background-color: #0E4A73;
 }
 
-/* Responsive (mobile-first)
-   Base styles = mobile
-   Media query enhances layout on larger screens */
+/* Responsive (mobile first) */
 @media (min-width: 700px) {
   .hero {
     padding: 56px 64px;
